@@ -344,6 +344,16 @@ footer nav .nav-footer li a
         margin-left: auto;
         margin-right: auto;
     }
+
+    #titulo
+    {
+        position: absolute;
+        top: 120%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ffff;
+        font-size: 5em;
+    }
 }
 
 
