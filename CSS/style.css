@@ -331,4 +331,19 @@ footer nav .nav-footer li a
     
 }
 
+@media (max-width: 450px)
+{
+    div.me .content .question-1,
+    div.me .content .question-2,
+    div.me .content .question-3,
+    div.xp .content .question-1,
+    div.xp .content .question-2,
+    div.xp .content .question-3
+    {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 
