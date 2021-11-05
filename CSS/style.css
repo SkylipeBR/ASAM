@@ -1,0 +1,303 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+:root
+{
+    --white: #fff;
+    --blue-black: #08298A;
+    --blue-white: #2E9AFE;
+    --blue-bold: #0B173B;
+}
+
+section.banner
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0,0,0, 0.65)), url('../Images/banner.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+section.banner .content 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section.banner .content .box img
+{
+    border-radius: 50%;
+}
+
+section.banner .content .box h1
+{
+    color: #2E9AFE;
+}
+
+section.banner .content .box p
+{
+    color: #c1c1c1;
+}
+
+#active
+{
+    color: #2E9AFE;
+}
+
+#logo,
+#logo-footer
+{
+    font-weight: bold;
+    text-decoration: none;
+    color: #2E9AFE;
+    font-size: 2em;
+}
+
+#logo span,
+#logo-footer span
+{
+    color: #fff;
+}
+
+#titulo
+{
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+    font-size: 5em;
+}
+
+.banner nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 9vh;
+    background: transparent;
+}
+
+nav .nav-list
+{
+    display: flex;
+}
+
+nav .nav-list li
+{
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav .nav-list li a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    transition: 0.25s;
+}
+
+nav .nav-list li a:hover
+{
+    color: #2E9AFE;
+}
+
+
+div.me
+{
+    display: flex;
+    height: 70vh;
+    padding: 80px;
+    background: #08298A;
+}
+
+div.me .content
+{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+div.me .content .question-1,
+div.me .content .question-2,
+div.me .content .question-3,
+div.xp .content .question-1,
+div.xp .content .question-2,
+div.xp .content .question-3
+{
+   margin: 50px;
+   width: 300px;
+}
+
+
+div.me .content .question-1 h1,
+div.me .content .question-2 h1,
+div.me .content .question-3 h1,
+div.xp .content .question-1 h1,
+div.xp .content .question-2 h1,
+div.xp .content .question-3 h1
+{
+    color: var(--white);
+    padding: 10px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+
+div.xp
+{
+    display: flex;
+    padding: 50px;
+    height: 80vh;
+    background: var(--blue-bold);
+}
+
+
+div.xp .content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+div.respost-flash
+{
+    display: flex;
+    padding: 50px;
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0, 0.75)), url('../Images/banner\ 2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+div.respost-flash .content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+div.respost-flash .content .box
+{
+    font-size: 1.1em;
+    color: #fff;
+}
+
+div.respost-flash .content .box p
+{
+    margin: 5px;
+}
+
+div.respost-flash .content .box p span
+{
+    margin: -5px;
+    color: var(--blue-white);
+}
+
+
+
+footer nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    background: #1C1C1C;
+}
+
+footer nav .nav-footer
+{
+    display: flex;
+}
+
+footer nav .nav-footer li
+{
+    list-style: none;
+    margin-left: 30px;
+
+}
+
+footer nav .nav-footer li a
+{
+    text-decoration: none;
+    color: #c1c1c1;
+}
+
+
+@media (max-width: 1299px)
+{
+    
+        div.me .content
+    {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        color: #fff;
+    }
+
+    div.me
+    {
+        display: flex;
+        height: 100%;
+        padding: 80px;
+        background: #08298A;
+    }
+
+    div.xp
+    {
+        display: flex;
+        padding: 50px;
+        height: 100%;
+        background: var(--blue-bold);
+    }
+
+
+    div.xp .content
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: #fff;
+        text-align: center;
+    }
+
+    #titulo
+{
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+    font-size: 3em;
+    width: 350px;
+
+}
+}
+
+
