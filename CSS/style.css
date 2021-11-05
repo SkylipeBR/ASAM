@@ -347,12 +347,10 @@ footer nav .nav-footer li a
 
     #titulo
     {
-        position: absolute;
+
         top: 120%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #ffff;
-        font-size: 5em;
+
+        
     }
 }
 
