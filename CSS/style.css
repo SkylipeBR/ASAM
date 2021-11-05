@@ -301,3 +301,34 @@ footer nav .nav-footer li a
 }
 
 
+@media (max-width: 600px)
+{
+    .banner nav
+    {
+
+        flex-wrap: wrap;
+    }
+
+    nav .nav-list
+    {
+        flex-wrap: wrap;
+    }
+
+    footer nav .nav-footer
+    {
+        flex-wrap: wrap;
+    }
+
+    div.me .content .question-1 h1,
+    div.me .content .question-2 h1,
+    div.me .content .question-3 h1,
+    div.xp .content .question-1 h1,
+    div.xp .content .question-2 h1,
+    div.xp .content .question-3 h1
+    {
+        font-size: 2em;
+    }
+    
+}
+
+
