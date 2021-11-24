@@ -26,6 +26,30 @@ section.banner
     height: 100vh;
 }
 
+section.banner .content #nuvem
+{
+    position: absolute;
+    top: -10%;
+    left: 70%;
+    animation: nuvem 5s linear infinite;
+}
+
+@keyframes nuvem {
+    0%
+    {
+        top: 0;
+    }
+    50%
+    {
+        top: 50px;
+    }
+    100%
+    {
+        top: 0;
+    }
+
+}
+
 section.banner .content 
 {
     position: absolute;
