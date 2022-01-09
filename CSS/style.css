@@ -336,6 +336,7 @@ footer nav .nav-footer li a
     nav .nav-list
     {
         flex-wrap: wrap;
+        text-align: center;
     }
 
     footer nav .nav-footer
