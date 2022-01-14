@@ -297,6 +297,11 @@ footer nav .nav-footer li a
     color: #c1c1c1;
 }
 
+footer nav .nav-footer li a:hover
+{
+    opacity: 0.8;
+}
+
 
 @media (max-width: 1299px)
 {
