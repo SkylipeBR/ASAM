@@ -168,7 +168,8 @@ nav .nav-list li a:hover
     color: #2E9AFE;
 }
 
-.desativado
+.desativado,
+.desativado-2
 {
     display: none;
 }
@@ -416,6 +417,21 @@ div.respost-flash .content .box p span
     color: var(--blue-white);
 }
 
+
+.trabalhos
+{
+    height: 100%;
+    padding: 100px 50px;
+    background: #272727;
+}
+
+.trabalhos .trabalhos-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
 
 
 footer nav

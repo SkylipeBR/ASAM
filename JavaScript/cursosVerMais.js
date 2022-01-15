@@ -1,6 +1,7 @@
-function curso()
+function btncurso()
 {
-    var ver = document.getElementsByClassName("curso")
+        document.querySelectorAll(".curso.desativado").forEach(curso => {
+            curso.classList.remove("desativado");
+        });
 
-    console.log(ver)
-}
+} 
