@@ -222,6 +222,14 @@ div.me
     background: #272727;
 }
 
+div.me .me-titulo
+{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 5em;
+}
+
 div.me .content
 {
   
@@ -233,6 +241,7 @@ div.me .content
 div.me .status-exemplo
 {
     color: var(--white);
+    width: 100%;
 }
 
 div.me-person .status-exemplo h3
@@ -422,7 +431,7 @@ div.respost-flash .content .box p span
 {
     height: 100%;
     padding: 100px 50px;
-    background: #272727;
+    background: #292929;
 }
 
 .trabalhos .trabalhos-content
@@ -431,6 +440,19 @@ div.respost-flash .content .box p span
     justify-content: center;
     align-items: center;
     gap: 100px;
+}
+
+.trabalhos .trabalhos-content .trabalhos-content-link img
+{
+    border-radius: 50%;
+    filter: saturate(0);
+    transition: 0.5s;
+}
+
+
+.trabalhos .trabalhos-content .trabalhos-content-link img:hover
+{
+    filter: saturate(1);
 }
 
 
@@ -508,6 +530,11 @@ footer nav .nav-footer li a:hover
         text-align: center;
     }
 
+    .trabalhos .trabalhos-content
+    {
+        flex-wrap: wrap;
+    }
+
     #titulo
 {
     position: absolute;
@@ -536,6 +563,11 @@ footer nav .nav-footer li a:hover
         text-align: center;
     }
 
+    .div.me .me-titulo
+    {
+        font-size: 2em;
+    }
+
     footer nav .nav-footer
     {
         flex-wrap: wrap;
@@ -550,6 +582,8 @@ footer nav .nav-footer li a:hover
     {
         font-size: 2em;
     }
+
+  
     
 }
 
