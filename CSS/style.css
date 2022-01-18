@@ -279,7 +279,14 @@ div.me .content .btn-view
     width: 100%;
     color: #fff;
     outline: none;
+    font-size: 1.3em;
 
+}
+
+div.me .content #icon-btn-view
+{
+    width: 100%;
+    margin: auto auto;
 }
 
 div.me .content .curso,
@@ -391,7 +398,7 @@ div.xp-person .content
 div.respost-flash
 {
     display: flex;
-    padding: 50px;
+    padding: 100px 50px;
     height: 70vh;
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0, 0.75)), url('../Images/banner\ 2.jpg');
     background-size: cover;

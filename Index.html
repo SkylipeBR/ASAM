@@ -7,6 +7,9 @@
     <script src="JavaScript/cursosVerMais.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
     
 
     <!-- CSS -->
@@ -44,7 +47,7 @@
         <!-- Content banner -->
         <div class="content">
             <div class="box">
-                <img src="Images/foto.jpg" alt="">
+                <img src="Images/foto.jpg" alt="" width="250px" height="250px">
                 <h1>Filipe Angelo</h1>
                 <p>Programador || Jovem Aprendiz</p>
             </div>
@@ -201,9 +204,10 @@
 
 
             <!-- Botão para Colocar mais cursos na VW do User -->
-            <button class="btn-view" onclick="btncurso()">
-                <h2>Ver mais</h2> <ion-icon name="caret-down-outline"></ion-icon>
+            <button class="btn-view" onclick="btncurso()" id="btn-ver-mais">
+                Ver mais
             </button>
+            <ion-icon name="caret-down-outline" id="icon-btn-view"></ion-icon>
         </div>
     </div>
 
@@ -263,6 +267,11 @@
             <div class="trabalhos-content-item">
                 <a href="https://minimalpagefilipe.netlify.app" class="trabalhos-content-link" target="_blank">
                     <img src="Images/Port-fotos/Minimal.png" alt="Create Minimal" width="120px" height="100px" id="minimal">
+                </a>
+            </div>
+            <div class="trabalhos-content-item">
+                <a href="https://minimalpagefilipe.netlify.app" class="trabalhos-content-link" target="_blank">
+                    <img src="Images/Port-fotos/cropped-logo-lumio-300x79.png" alt="Lumio Life" width="120px" height="100px" id="lumioLife">
                 </a>
             </div>
         </div>
