@@ -222,12 +222,12 @@ div.me
     background: #272727;
 }
 
-div.me .me-titulo
+.me .me-titulo
 {
     width: 100%;
     text-align: center;
     color: #fff;
-    font-size: 5em;
+    font-size: 4em;
 }
 
 div.me .content
@@ -287,6 +287,12 @@ div.me .content #icon-btn-view
 {
     width: 100%;
     margin: auto auto;
+}
+
+div.me .content #icon-btn-view:active  
+{
+    color: #000;
+    transform: rotate(90deg);
 }
 
 div.me .content .curso,
@@ -553,6 +559,8 @@ footer nav .nav-footer li a:hover
     width: 350px;
 
 }
+
+
 }
 
 
@@ -570,10 +578,31 @@ footer nav .nav-footer li a:hover
         text-align: center;
     }
 
-    .div.me .me-titulo
+    .me .me-titulo
     {
-        font-size: 2em;
+        font-size: 3em;
     }
+
+    div.me
+    {
+        padding: 100px;
+    }
+
+    .status-exemplo
+    {
+        text-align: center;
+    }
+
+    .curso
+    {
+        text-align: center;
+    }
+
+    div.me
+    {
+        padding: 50px;
+    }
+
 
     footer nav .nav-footer
     {
@@ -621,6 +650,11 @@ footer nav .nav-footer li a:hover
         top: 107%;
         font-size: 3em;
         
+    }
+
+    .me .me-titulo
+    {
+        font-size: 2em;
     }
 }
 
