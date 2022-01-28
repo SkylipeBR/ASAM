@@ -405,7 +405,7 @@ div.respost-flash
 {
     display: flex;
     padding: 100px 50px;
-    height: 80vh;
+    height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0, 0.75)), url('../Images/banner\ 2.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -445,6 +445,15 @@ div.respost-flash .content .box p span
     height: 100%;
     padding: 100px 50px;
     background: #292929;
+}
+
+.trabalhos #titulo-trabalhos
+{
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px 0px 30px 0px;
 }
 
 .trabalhos .trabalhos-content
@@ -598,6 +607,11 @@ footer nav .nav-footer li a:hover
         text-align: center;
     }
 
+    .trabalhos #titulo-trabalhos
+    {
+        font-size: 2em;
+    }
+
     div.me
     {
         padding: 50px;
@@ -618,6 +632,7 @@ footer nav .nav-footer li a:hover
     {
         font-size: 2em;
     }
+    
 
   
     
