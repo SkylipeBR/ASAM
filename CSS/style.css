@@ -569,6 +569,11 @@ footer nav .nav-footer li a:hover
 
 }
 
+footer
+    {
+        padding: 10px;
+    }
+
 
 }
 
@@ -631,6 +636,11 @@ footer nav .nav-footer li a:hover
     div.xp-person .content .question-3 h1
     {
         font-size: 2em;
+    }
+
+    footer
+    {
+        padding: 10px;
     }
     
 
