@@ -569,7 +569,7 @@ footer nav .nav-footer li a:hover
 
 }
 
-footer
+    footer nav
     {
         padding: 10px;
     }
@@ -638,7 +638,7 @@ footer
         font-size: 2em;
     }
 
-    footer
+    footer nav
     {
         padding: 10px;
     }
@@ -683,7 +683,7 @@ footer
         font-size: 2em;
     }
 
-    footer
+    footer nav
     {
         padding: 10px;
     }
